@@ -4,7 +4,7 @@
 Deployed a Cowrie SSH honeypot in an isolated lab environment, simulated an
 external attack against it using Nmap and a Metasploit SSH brute-force module, and verified detection through both the honeypot's own logs and a centralized Kibana dashboard.
 
-##Environment: Kali Linux, Cowrie honeypot (port 2222), Nmap, Metasploit,
+**Environment:** Kali Linux, Cowrie honeypot (port 2222), Nmap, Metasploit,
 Wireshark, ELK Stack (Elasticsearch, Logstash, Kibana) via Filebeat.
 
 >> All activity was conducted in a self-contained lab against infrastructure I own and control. No external or production systems were involved.
